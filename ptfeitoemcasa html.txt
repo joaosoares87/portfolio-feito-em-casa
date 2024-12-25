@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Feito Em Casa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image {
+            text-align: center;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #222;
+            color: #fff;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfólio - Feito Em Casa</h1>
+        <p>Por João Vitor Soares</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p><strong>Feito Em Casa</strong> é um projeto criativo que reflete a essência da música e produção independente. Inspirado pelo cotidiano e pelo poder da criação em ambientes familiares, o projeto traz uma coleção de composições e produções musicais desenvolvidas no ambiente doméstico.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos Realizados</h2>
+        <div class="image">
+            <img src="exemplo.jpg" alt="Imagem do Projeto">
+        </div>
+        <p>Cada faixa musical foi produzida com dedicação e autenticidade, explorando gêneros como MPB, samba e outras vertentes da música popular brasileira.</p>
+        <ul>
+            <li><a href="#">Música 1 - Ouça Agora</a></li>
+            <li><a href="#">Música 2 - Veja o Clipe</a></li>
+            <li><a href="#">Música 3 - Saiba Mais</a></li>
+        </ul>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades e Ferramentas</h2>
+        <p>Durante o desenvolvimento do projeto, utilizei as seguintes habilidades e ferramentas:</p>
+        <ul>
+            <li>Composição musical</li>
+            <li>Produção e gravação em home studio</li>
+            <li>Arranjos e mixagem</li>
+            <li>Divulgação em plataformas digitais</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato para saber mais sobre o projeto ou colaborar em novas iniciativas.</p>
+        <ul>
+            <li>Email: <a href="mailto:joaosoares@exemplo.com">joaosoares@exemplo.com</a></li>
+            <li>Instagram: <a href="https://instagram.com/seuusuario" target="_blank">@seuusuario</a></li>
+            <li>WhatsApp: <a href="https://wa.me/seunumerotelefone" target="_blank">Clique para conversar</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 João Vitor Soares. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
